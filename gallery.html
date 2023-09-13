@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Gallery | Arduino On Cloud</title>
+  </head>
+  <body>
+    <nav>
+      <div id="nav-bar">
+        <div class="logo">
+          <img src="./assets/images/Logo.svg" alt="logo" />
+          <span>DASHBOARD</span>
+        </div>
+        <div class="nav-elements">
+          <a href="">HOME</a>
+          <a href="">DASHBOARD</a>
+          <a href="">GALLERY</a>
+          <a href="">LOG IN</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="side-nav">
+        <div class="dropdown" onclick="dropdown(), rotate90()">
+          <a href="#" id="click">Save Locations</a>
+          <div class="dropdown-container" id="subMenu">
+            <div class="dropdown-content">
+              <a href="#" class="sub-menu-link"></a>
+              <a href="#" class="sub-menu-link"></a>
+              <a href="#" class="sub-menu-link"></a>
+              <a href="#" class="sub-menu-link"></a>
+            </div>
+          </div>
+          <span><img src="./assets/images/greater than.png" alt="dropdown" class="dropdown-image" id="greater-than"></span>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="option-header">
+          <div class="options experiments-demo" onclick="experiments()">EXPERIMENTS<div class="slide-box" onclick="slide()"></div></div>
+          <div class="options recents-demo" onclick="recents  ()">RECENTS</div>
+        </div>
+        <div id="experiments">
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./assets/images/404 error.jpg" alt="Arduino Circuit">
+            </div>
+            <div class="image-heading">Sample Arduino Circuit</div>
+          </div>
+        </div>
+        <div id="recents"></div>
+      </div>
+    </div>
+    <script src="./gallery.js"></script>
+  </body>
+</html>
